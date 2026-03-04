@@ -1,0 +1,121 @@
+export const experiences = [
+    {
+        id: 1,
+        role: 'Founder & Lead Security Engineer',
+        company: 'Team Zero-Gap',
+        period: '2024 – Present',
+        type: 'Founder',
+        color: '#DA7B26',
+        description:
+            'Founded and lead Team Zero-Gap — a specialized cybersecurity engineering and research team. Architected security monitoring pipelines, compliance automation frameworks, and zero-trust network access solutions. Oversee all research, tooling development, and client security engagements.',
+        highlights: [
+            'Designed ETARA — Endpoint Threat Analysis & Response platform',
+            'Built Zero-Gap Compliance Engine for automated compliance scanning',
+            'Architected IDAxis ZTNA for zero-trust network access',
+            'Deployed enterprise-grade Wazuh SIEM environments',
+        ],
+        tech: ['Wazuh', 'Elastic Stack', 'Python', 'React', 'ZTNA', 'ISO 27001'],
+    },
+    {
+        id: 2,
+        role: 'SOC and SIEM Analyst',
+        company: 'DataCompass',
+        period: 'Oct 2025 – Present',
+        type: 'Full-time',
+        color: '#4FACFE',
+        description:
+            'Working as a SOC and SIEM Analyst — monitoring security events, tuning detection rules, and responding to incidents in a live security operations environment.',
+        highlights: [
+            'Real-time threat monitoring and alert triage',
+            'SIEM rule tuning and log source onboarding',
+            'Incident response and escalation workflows',
+            'Security dashboard reporting for stakeholders',
+        ],
+        tech: ['SIEM', 'SOC', 'Threat Detection', 'Incident Response', 'Log Analysis'],
+    },
+    {
+        id: 3,
+        role: 'Social Media Analyst',
+        company: 'ISPR',
+        period: 'Jul 2024 – Present',
+        type: 'Analyst',
+        color: '#C9A227',
+        description:
+            'Serving as Social Media Analyst at the Inter-Services Public Relations (ISPR), monitoring digital channels and supporting information security and public communication efforts.',
+        highlights: [
+            'Digital channel monitoring and threat intelligence',
+            'Social media security analysis',
+            'Coordinating public communication strategies',
+            'Open-source intelligence (OSINT) gathering',
+        ],
+        tech: ['OSINT', 'Digital Intelligence', 'Social Media Analysis', 'Threat Monitoring'],
+    },
+    {
+        id: 4,
+        role: 'Incident Management Intern',
+        company: 'National CERT – Pakistan',
+        period: 'Jul 2025 – Sep 2025',
+        type: 'Internship',
+        color: '#00D4FF',
+        description:
+            "Interned at Pakistan's National Computer Emergency Response Team, gaining hands-on experience in national-level cyber incident management, threat coordination, and response workflows.",
+        highlights: [
+            'Assisted in national cyber incident triage and reporting',
+            'Supported threat intelligence sharing with government entities',
+            'Documented incident response procedures',
+            'Participated in vulnerability disclosure workflows',
+        ],
+        tech: ['Incident Response', 'CERT', 'Threat Intelligence', 'DFIR', 'Vulnerability Management'],
+    },
+    {
+        id: 5,
+        role: 'GRC Intern',
+        company: 'NESCOM',
+        period: 'Aug 2025 – Oct 2025',
+        type: 'Internship',
+        color: '#75A833',
+        description:
+            'Completed a Governance, Risk, and Compliance internship at the National Engineering and Scientific Commission, working on compliance frameworks and risk assessment processes.',
+        highlights: [
+            'Assessed compliance against security frameworks',
+            'Assisted in risk register development and maintenance',
+            'Supported policy writing and documentation',
+            'Conducted internal security control reviews',
+        ],
+        tech: ['GRC', 'ISO 27001', 'Risk Assessment', 'Compliance', 'Policy Development'],
+    },
+    {
+        id: 6,
+        role: 'CPENT Lab Architect (Offensive Security Intern)',
+        company: 'Sir Syed CASE Institute of Technology',
+        period: 'Jul 2025 – Sep 2025',
+        type: 'Internship',
+        color: '#FF6B6B',
+        description:
+            'Designed and built offensive security lab environments for CPENT (Certified Penetration Testing Expert) training, enabling students to practice real-world penetration testing techniques.',
+        highlights: [
+            'Architected isolated penetration testing lab environments',
+            'Configured vulnerable target machines for training',
+            'Developed attack scenario documentation for CPENT prep',
+            'Mentored students in offensive security techniques',
+        ],
+        tech: ['Penetration Testing', 'CPENT', 'Offensive Security', 'Lab Design', 'Kali Linux'],
+    },
+    {
+        id: 7,
+        role: 'Cyber Security Trainee',
+        company: 'Hazza Institute of Technology',
+        period: 'Apr 2025 – Jul 2025',
+        type: 'Training',
+        color: '#949099',
+        description:
+            'Completed intensive cybersecurity training covering core domains including network security, ethical hacking, and security operations fundamentals.',
+        highlights: [
+            'Hands-on network security and ethical hacking labs',
+            'Studied SOC operations and threat analysis',
+            'Practiced vulnerability assessment techniques',
+            'Completed security certification preparation modules',
+        ],
+        tech: ['Ethical Hacking', 'Network Security', 'SOC Operations', 'Vulnerability Assessment'],
+    },
+];
