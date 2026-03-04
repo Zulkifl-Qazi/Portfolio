@@ -78,7 +78,7 @@ export default function ContactSection() {
                             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" /><path d="M22 6l-10 7L2 6" /></svg>
                             Send Email
                         </a>
-                        <a href="/cv/zulkifl-qazi-cv.pdf" download className="btn-outline" style={{ textDecoration: 'none' }}>
+                        <a href="/cv/CV-V2.pdf" download className="btn-outline" style={{ textDecoration: 'none' }}>
                             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5"><path d="M12 15V3m0 12l-4-4m4 4l4-4" /><path d="M2 17l.621 2.485A2 2 0 004.561 21h14.878a2 2 0 001.94-1.515L22 17" /></svg>
                             Download CV
                         </a>
