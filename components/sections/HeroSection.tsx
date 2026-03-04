@@ -117,6 +117,7 @@ export default function HeroSection() {
         <section
             id="hero"
             ref={containerRef}
+            className="hero-layout"
             style={{
                 position: 'relative',
                 width: '100%',
@@ -152,6 +153,7 @@ export default function HeroSection() {
 
             {/* ── LEFT PANEL — text content ─────────────────────────────── */}
             <motion.div
+                className="hero-left"
                 style={{
                     position: 'relative',
                     zIndex: 10,
@@ -360,13 +362,16 @@ export default function HeroSection() {
 
 
             {/* ── RIGHT PANEL — HUD overlay only (3D canvas is full-bg) ──── */}
-            <div style={{
-                position: 'relative',
-                flex: '1 1 44%',
-                zIndex: 6,
-                overflow: 'hidden',
-                pointerEvents: 'none',
-            }}>
+            <div
+                className="hero-right"
+                style={{
+                    position: 'relative',
+                    flex: '1 1 44%',
+                    zIndex: 6,
+                    overflow: 'hidden',
+                    pointerEvents: 'none',
+                }}
+            >
                 {/* Nebula glow vignette behind globe */}
                 <div style={{
                     position: 'absolute',

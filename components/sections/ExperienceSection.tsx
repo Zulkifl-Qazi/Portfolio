@@ -33,7 +33,7 @@ export default function ExperienceSection() {
                 {/* Timeline */}
                 <div style={{ position: 'relative' }}>
                     {/* Center spine */}
-                    <div style={{
+                    <div className="exp-center-spine" style={{
                         position: 'absolute',
                         left: '50%',
                         top: 0,
@@ -50,6 +50,7 @@ export default function ExperienceSection() {
                                 initial={{ opacity: 0, x: i % 2 === 0 ? -50 : 50 }}
                                 animate={inView ? { opacity: 1, x: 0 } : {}}
                                 transition={{ duration: 0.7, delay: 0.2 * i }}
+                                className="exp-row"
                                 style={{
                                     display: 'flex',
                                     alignItems: 'center',
@@ -58,13 +59,13 @@ export default function ExperienceSection() {
                                 }}
                             >
                                 {/* Card left side */}
-                                <div style={{ width: 'calc(50% - 28px)', paddingRight: i % 2 === 0 ? 0 : 0, display: i % 2 === 0 ? 'block' : 'none' }}>
+                                <div className={i % 2 === 0 ? 'exp-card-left' : 'exp-card-hidden'} style={{ width: 'calc(50% - 28px)', display: i % 2 === 0 ? 'block' : 'none' }}>
                                     <ExperienceCard exp={exp} align="right" />
                                 </div>
-                                {i % 2 !== 0 && <div style={{ width: 'calc(50% - 28px)' }} />}
+                                {i % 2 !== 0 && <div className="exp-card-hidden" style={{ width: 'calc(50% - 28px)' }} />}
 
                                 {/* Center dot */}
-                                <div style={{ width: 56, flexShrink: 0, display: 'flex', justifyContent: 'center', position: 'relative', zIndex: 2 }}>
+                                <div className="exp-dot-col" style={{ width: 56, flexShrink: 0, display: 'flex', justifyContent: 'center', position: 'relative', zIndex: 2 }}>
                                     <div style={{
                                         width: 18,
                                         height: 18,
@@ -80,11 +81,11 @@ export default function ExperienceSection() {
 
                                 {/* Card right side */}
                                 {i % 2 !== 0 && (
-                                    <div style={{ width: 'calc(50% - 28px)' }}>
+                                    <div className="exp-card-right" style={{ width: 'calc(50% - 28px)' }}>
                                         <ExperienceCard exp={exp} align="left" />
                                     </div>
                                 )}
-                                {i % 2 === 0 && <div style={{ width: 'calc(50% - 28px)' }} />}
+                                {i % 2 === 0 && <div className="exp-card-hidden" style={{ width: 'calc(50% - 28px)' }} />}
                             </motion.div>
                         ))}
                     </div>

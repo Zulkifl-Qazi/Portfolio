@@ -42,7 +42,7 @@ export default function ProjectsSection() {
                     <div style={{ height: 1, width: 160, margin: '20px auto 0', background: 'linear-gradient(90deg, transparent, #C9A227, transparent)' }} />
                 </motion.div>
 
-                <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(320px, 1fr))', gap: 20 }}>
+                <div className="projects-grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(min(100%, 300px), 1fr))', gap: 20 }}>
                     {projects.map((project, i) => (
                         <motion.div
                             key={project.id}

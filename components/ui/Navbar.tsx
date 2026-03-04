@@ -90,7 +90,7 @@ export default function Navbar() {
                 </motion.button>
 
                 {/* Desktop nav */}
-                <div style={{ display: 'flex', alignItems: 'center', gap: 32 }}>
+                <div className="desktop-nav" style={{ display: 'flex', alignItems: 'center', gap: 32 }}>
                     {navItems.map((item) => (
                         <button
                             key={item.label}
@@ -141,7 +141,7 @@ export default function Navbar() {
                         border: 'none',
                         cursor: 'pointer',
                     }}
-                    className="md-hidden-flex"
+                    className="mobile-hamburger"
                 >
                     {[0, 1, 2].map((i) => (
                         <div key={i} style={{ width: 24, height: 1.5, background: '#4FACFE' }} />

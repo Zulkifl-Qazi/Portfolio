@@ -367,4 +367,73 @@ body {
   .cursor-follower {
     display: none;
   }
+
+  /* Navbar: hide desktop nav, show hamburger */
+  .desktop-nav {
+    display: none !important;
+  }
+
+  .mobile-hamburger {
+    display: flex !important;
+  }
+
+  /* Buttons: don't overflow */
+  .btn-royal,
+  .btn-outline {
+    padding: 10px 20px;
+    font-size: 0.68rem;
+  }
+
+  /* Section padding */
+  .section-content {
+    padding: 60px 16px !important;
+  }
+
+  /* Hero: stack vertically */
+  .hero-layout {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+  }
+
+  .hero-left {
+    flex: none !important;
+    width: 100% !important;
+    padding: 100px 20px 40px !important;
+  }
+
+  .hero-right {
+    display: none !important;
+  }
+
+  /* Experience: single column */
+  .exp-center-spine {
+    left: 20px !important;
+    transform: none !important;
+  }
+
+  .exp-row {
+    flex-direction: row !important;
+    align-items: flex-start !important;
+  }
+
+  .exp-card-left,
+  .exp-card-right {
+    display: block !important;
+    width: calc(100% - 56px) !important;
+    text-align: left !important;
+  }
+
+  .exp-card-hidden {
+    display: none !important;
+  }
+
+  .exp-dot-col {
+    flex-shrink: 0;
+    width: 40px !important;
+  }
+
+  /* Projects grid: safe minimum */
+  .projects-grid {
+    grid-template-columns: 1fr !important;
+  }
 }
